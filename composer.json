@@ -1,0 +1,27 @@
+{
+    "name": "fardiansyah1808/php-login-management",
+    "description": "PHP Login Management",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Fardiansyah",
+            "email": "fardiansyah@ifca.co.id"
+        }
+    ],
+    "require": {
+        "php" : ">=8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "fardiansyah1808\\PHP\\Login\\Management\\" : "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "fardiansyah1808\\PHP\\Login\\Management\\" : "test"
+        }
+    }
+}
